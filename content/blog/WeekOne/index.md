@@ -36,3 +36,6 @@ using the User resolver we call on the Parent which refers back to the table at 
 
 ![Example GraphQL query](/gqlquery.PNG)
 
+### Milestone relfections
+
+Working with a team on a project of this size for the first time defintely was not as easy as I thought it would be. Everyone has their own needs as a developer and their own way of understanding of how things work. Trying to determine which technologies to use came at a cost, the pros and cons had to be discussed to ensure that it would meet the needs of our application. I believe originization was a huge factor in the process, at first we were working through a document and we didn't have a system in place to decide on how descions were going to be made which led to hours of discussion on the same topic. Not to mention the technologies we wanted to use for all relatively new to each and every one of us. After what seemed like all week I got to know the team a lot better and realized a lot of the friction actually came down to not know how all the procceses and communcation betweens each of the technologies worked.
