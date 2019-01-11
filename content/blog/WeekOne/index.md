@@ -3,19 +3,20 @@ title: Labs 9 - Week One
 date: '2019-01-11'
 ---
 
-This is my first post on my new fake blog! How exciting!
+[whiteboard week one](www.blank.com) | Note: not completed yet <br>
+[Backpaca team contribution graph](https://github.com/Lambda-School-Labs/labs9-map-scratcher) | Github handle: TRIF3X
 
-I'm sure I'll write a lot more interesting things in the future.
+![deploying Backpaca](/deploy.PNG)
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+This week has been nothing short of exhausting, from the planning stages to getting something in the codebase. The first challenge this week came when I was tasked with deploying our very basic front-end website [Backpaca](https://backpaca.now.sh/). Deploying with a new service came with its own set of challenges, like how to use it. With very little documentation on how it works I would try to deploy from vscode in my terminal with no luck. Then came to mind, 'what if vscode just isn't at a high enough level to execute the commands I'm sending it?'. After switching to my command prompt in Windows, I was able to succesfully deploy the website by navigating to the frontend folder and typing the command 'now'. For the most part I lived in VScode, but when writing the backend using GraphQL I would use this IDE called GraphQL-Playground where I could send structured requests to the back end and in return receive only exactly what I was asking for. 
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+![Example GraphQL query](/gqlquery.PNG)
 
-![Chinese Salty Egg](./salty_egg.jpg)
+For the frontend we decided on Next.js and apollo client. This week I focused on devloping two of the components needed for Backpaca. I first built a very simple login page which would serve as our model next week when we finally connect the frontend to the backend and hook up apollo client which will be used to handle local state. And for the second component I build out our settings page to the point where we would need only need to style it and hook up our apollo client to handle the input fields.
+
+![Settings page](/settingsPage.PNG)
+
+[PR 1 - deployment](https://github.com/Lambda-School-Labs/labs9-map-scratcher/pull/4) | [Trello Card 1](https://trello.com/c/CEFwFKVa/12-deployed-to-the-web) <br>
+[PR 2 - login page](https://github.com/Lambda-School-Labs/labs9-map-scratcher/pull/14) | [Trello Card 2](https://trello.com/c/yoGgPKY1/18-login-component) <br>
+[PR 3 - settings page](https://github.com/Lambda-School-Labs/labs9-map-scratcher/pull/16) | [Trello Card 3](https://trello.com/c/eV6EyffB/30-settings-component) <br>
+[PR 4 - user resolver](https://github.com/Lambda-School-Labs/labs9-map-scratcher/pull/21) | [Trello Card 4](https://trello.com/c/zDfsTLTg/44-user-needs-to-return-ch) <br>
