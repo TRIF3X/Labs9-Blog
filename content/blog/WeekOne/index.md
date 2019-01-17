@@ -3,7 +3,6 @@ title: Labs 9 - Week One
 date: '2019-01-11'
 ---
 
-[whiteboard week one](www.blank.com) | Note: not completed yet <br>
 [Backpaca team contribution graph](https://github.com/Lambda-School-Labs/labs9-map-scratcher) | Github handle: TRIF3X
 
 This week has been nothing short of exhausting, from the planning stages to getting something in the codebase. The first challenge this week came when I was tasked with deploying our very basic front-end website [Backpaca](https://backpaca.now.sh/). Deploying with a new service came with its own set of challenges, like how to use it. With very little documentation on how it works I would try to deploy from vscode in my terminal with no luck. Then came to mind, 'what if vscode just isn't at a high enough level to execute the commands I'm sending it?'. After switching to my command prompt in Windows, I was able to succesfully deploy the website by navigating to the frontend folder and typing the command 'now'. For the most part I lived in VScode, but when writing the backend using GraphQL I would use this IDE called GraphQL-Playground where I could send structured requests to the back end and in return receive only exactly what I was asking for. 
