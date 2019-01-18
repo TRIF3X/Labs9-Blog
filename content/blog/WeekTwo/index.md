@@ -3,7 +3,7 @@ title: Labs 9 - Week Two
 date: '2019-01-18'
 ---
 
-[whiteboard week one](www.blank.com) | Note: not completed yet <br>
+[whiteboard week one](https://www.youtube.com/watch?v=CE9HS2gNtcA&feature=youtu.be) <br>
 [Backpaca team contribution graph](https://github.com/Lambda-School-Labs/labs9-map-scratcher) | Github handle: TRIF3X
 
 ![Map component rough draft](/sample.PNG)
