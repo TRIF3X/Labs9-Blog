@@ -39,3 +39,9 @@ After you have your script tag loaded into your meta you can now add your code f
 ![picture code](/uploadcode.PNG)
 
 You will need to use your own cloud_name and upload_preset which is available on the home screen. Be sure to set your pictures to UNSIGNED when creating your preset. What this code is doing is after a successful upload we will grab the result and the url of the uploaded image from the response. Afterwards we will set that url onto our state which is submitted when we we submit our form.
+
+### Milestone reflections
+
+<!-- As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to bring an application to completion. The 90-90 rule is a quip referencing the very real difficulty of truly completing a project. Describe some of the final tasks that were the most difficult for your team to resolve - challenging bugs, layout and presentation woes, or anything else that was easy to get mostly working, but hard to get perfect -->
+
+This week may of been a bit divided. We chose to have this week to focus on working out all the bugs since these are all new bugs we're experiencing using a new tech stack. We also decided we would need a profile page for all the users. Most of my week was spent on writing all of the code back end and front end for our user profiles. Working as a team has been awesome though, anytime someone has difficulty or just wanted someone to over look the code as it is being written there was always a team mate there to help out. I specifically asked for help when uploading the images which Lola was able to help me find the correct documentation for me to be able to get this done quickly and without much troubles. I really do enjoy working with a team as it allows there to be a flow of ideas and different solutions that otherwise one may miss.
